@@ -19,4 +19,4 @@ Using pip to install the plugin::
 Configuration
 =============
 
-Add ``cmsplugin_htmlsitemap`` to the list of :setting:`INSTALLED_APPS` in your ``settings.py`` file.
+Add ``cmsplugin_htmlsitemap`` to the list of ``INSTALLED_APPS`` in your ``settings.py`` file.
