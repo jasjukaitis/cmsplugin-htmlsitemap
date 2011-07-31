@@ -1,5 +1,6 @@
-from setuptools import setup
 import os
+
+from setuptools import setup, find_packages
 
 setup(
     name='cmsplugin-htmlsitemap',
@@ -9,14 +10,12 @@ setup(
     author='Raphael Jasjukaitis',
     author_email='webmaster@raphaa.de',
     url='https://github.com/raphaa/cmsplugin-htmlsitemap',
-    packages = [
-        "cmsplugin_htmlsitemap",
-    ],
+    packages=find_packages(),
     classifiers=[
-        "Environment :: Web Environment",
-        "Operating System :: OS Independent",
-        "Programming Language :: Python",
-        "Framework :: Django",
+        'Environment :: Web Environment',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Framework :: Django',
     ],
-    zip_safe=False
+    zip_safe=False,
 )
