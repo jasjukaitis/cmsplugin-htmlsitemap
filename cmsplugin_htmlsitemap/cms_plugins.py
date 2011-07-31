@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from django.contrib.sites.models import Site
 from django.utils.translation import ugettext as _
 
 from cms.models.pagemodel import Page
@@ -11,7 +12,8 @@ class HtmlSitemapPlugin(CMSPluginBase):
     render_template = 'cmsplugin_htmlsitemap/sitemap.html'
 
     def render(self, context, instance, placeholder):
-        pages = Page.tree.filter(published=True)
+        site = Site.objects.get_current()
+        pages = Page.objects.published(site=site).order_by('tree_id', 'lft')
         context.update(
             {'instance': instance,
              'pages': pages
