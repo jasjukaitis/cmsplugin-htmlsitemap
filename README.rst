@@ -14,7 +14,7 @@ Installation
 
 Using pip to install the plugin::
 
-  pip install -e git+git://github.com/raphaa/cmsplugin-htmlsitemap.git#egg=cmsplugin-htmlsitemap
+  pip install cmsplugin-htmlsitemap
 
 Configuration
 =============
