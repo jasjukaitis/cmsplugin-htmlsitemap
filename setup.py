@@ -13,6 +13,7 @@ setup(
     packages=find_packages(),
     classifiers=[
         'Environment :: Web Environment',
+        'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Framework :: Django',
