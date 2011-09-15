@@ -12,16 +12,22 @@ Requirements
 Installation
 ============
 
-Using pip to install the plugin::
+Using PyPI you can simply type into a terminal:
 
-  pip install cmsplugin-htmlsitemap
+    pip install cmsplugin-htmlsitemap
+
+or
+
+    easy_install cmsplugin-htmlsitemap
 
 Configuration
 =============
 
-Add ``cmsplugin_htmlsitemap`` to the list of ``INSTALLED_APPS`` in your ``settings.py`` file.
+Add ``cmsplugin_htmlsitemap`` to the list of ``INSTALLED_APPS`` in your
+``settings.py`` file. Don't forget to syncdb your database or migrate if you're
+using ``south``.
 
-After adding the CMS plugin you can filter listed pages by their:
+After adding the CMS plugin you can configure filtering of listed pages by their::
 
   * starting/minimal level
   * deepest/maximal level
@@ -30,3 +36,10 @@ After adding the CMS plugin you can filter listed pages by their:
   * match title containing substring
   * URL match with regular expression
 
+Author
+======
+
+Copyright 2011 Raphael Jasjukaitis <webmaster@raphaa.de>
+Credits to GW <gw.2011@tnode.com or http://gw.tnode.com/>
+
+Released under the BSD license.
