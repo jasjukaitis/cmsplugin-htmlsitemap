@@ -36,4 +36,3 @@ class HtmlSitemapPlugin(CMSPluginBase):
         return context
 
 plugin_pool.register_plugin(HtmlSitemapPlugin)
-

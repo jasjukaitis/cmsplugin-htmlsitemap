@@ -25,4 +25,3 @@ class HtmlSitemap(CMSPlugin):
 
     def __unicode__(self):
         return u'HTML Sitemap {0}-{1}'.format(self.level_min, self.level_max)
-
