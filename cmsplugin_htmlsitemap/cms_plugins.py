@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from django.contrib.sites.models import Site
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import ugettext_lazy as _, get_language
 
 from cms.models.pagemodel import Page
 from cms.plugin_base import CMSPluginBase
@@ -22,6 +22,8 @@ class HtmlSitemapPlugin(CMSPluginBase):
         pages = pages.filter(level__gte=instance.level_min, level__lte=instance.level_max)
         if not instance.in_navigation is None:
             pages = pages.filter(in_navigation=instance.in_navigation)
+        if instance.match_language:
+            pages = pages.filter(title_set__language=get_language())
         if instance.match_created_by:
             pages = pages.filter(created_by=instance.match_created_by)
         if instance.match_title:
