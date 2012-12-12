@@ -35,11 +35,19 @@ After adding the CMS plugin you can configure filtering of listed pages by their
   * exact match on created by
   * match title containing substring
   * URL match with regular expression
+  * pages in the current language
+
 
 Author
 ======
 
-Copyright 2011 Raphael Jasjukaitis <webmaster@raphaa.de>
-Credits to GW <gw.2011@tnode.com or http://gw.tnode.com/>
+Copyright 2011-2012 Raphael Jasjukaitis <webmaster@raphaa.de>
+
+
+Contributors
+============
+GW <gw.2011@tnode.com or http://gw.tnode.com/>
+Mihai Sucan
+
 
 Released under the BSD license.
