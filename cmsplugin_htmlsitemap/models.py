@@ -17,6 +17,7 @@ class HtmlSitemap(CMSPlugin):
         max_length=255)
     match_url = models.CharField(_('URL match with regular expression'), blank=True,
         max_length=100)
+    match_language = models.BooleanField(_('match only pages in current language'), default=False)
 
     class Meta:
         verbose_name = _('HTML Sitemap plugin')
