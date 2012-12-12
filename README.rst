@@ -46,8 +46,9 @@ Copyright 2011-2012 Raphael Jasjukaitis <webmaster@raphaa.de>
 
 Contributors
 ============
-GW <gw.2011@tnode.com or http://gw.tnode.com/>
-Mihai Sucan
+
+  * GW <gw.2011@tnode.com or http://gw.tnode.com/>
+  * Mihai Sucan
 
 
 Released under the BSD license.
