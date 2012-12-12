@@ -1,3 +1,4 @@
 include README.rst
 recursive-include cmsplugin_htmlsitemap/templates *
 recursive-include cmsplugin_htmlsitemap/migrations *.py
+recursive-include cmsplugin_htmlsitemap/locale *
