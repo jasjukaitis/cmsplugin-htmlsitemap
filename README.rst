@@ -41,7 +41,7 @@ After adding the CMS plugin you can configure filtering of listed pages by their
 Author
 ======
 
-Copyright 2011-2012 Raphael Jasjukaitis <webmaster@raphaa.de>
+Copyright 2011-2013 Raphael Jasjukaitis <webmaster@raphaa.de>
 
 
 Contributors
@@ -49,6 +49,7 @@ Contributors
 
   * GW <gw.2011@tnode.com or http://gw.tnode.com/>
   * Mihai Sucan
+  * abrown1982
 
 
 Released under the BSD license.
