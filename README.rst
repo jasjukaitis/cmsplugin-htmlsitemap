@@ -1,7 +1,7 @@
 cmsplugin-htmlsitemap
 =====================
 
-This is an HTML sitemap plugin for Django CMS.
+This is an HTML sitemap plugin for Django CMS (3).
 
 Requirements
 ============
@@ -41,15 +41,16 @@ After adding the CMS plugin you can configure filtering of listed pages by their
 Author
 ======
 
-Copyright 2011-2013 Raphael Jasjukaitis <webmaster@raphaa.de>
+Copyright 2011-2014 Raphael Jasjukaitis <hello@raphael-jasjukaitis.de>
 
 
 Contributors
 ============
 
-  * GW <gw.2011@tnode.com or http://gw.tnode.com/>
-  * Mihai Sucan
+  * gw0 <gw.2011@tnode.com or http://gw.tnode.com/>
+  * mihaisucan
   * abrown1982
+  * acspike
 
 
 Released under the BSD license.

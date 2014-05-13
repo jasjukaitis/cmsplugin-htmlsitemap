@@ -4,11 +4,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='cmsplugin-htmlsitemap',
-    version='0.1.3',
+    version='0.1.4',
     description='HTML sitemap plugin for Django CMS',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
     author='Raphael Jasjukaitis',
-    author_email='webmaster@raphaa.de',
+    author_email='hello@raphael-jasjukaitis.de',
     url='https://github.com/raphaa/cmsplugin-htmlsitemap',
     packages=find_packages(),
     classifiers=[
