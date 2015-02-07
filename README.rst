@@ -6,8 +6,8 @@ This is an HTML sitemap plugin for Django CMS (3).
 Requirements
 ============
 
-  * Django
-  * django-cms
+  * Django v1.7
+  * django-cms v3.x
 
 Installation
 ============
@@ -51,6 +51,7 @@ Contributors
   * mihaisucan
   * abrown1982
   * acspike
+  * jedie <http://www.jensdiemer.de/ or https://github.com/jedie/>
 
 
 Released under the BSD license.
