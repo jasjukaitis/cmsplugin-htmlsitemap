@@ -1,3 +1,8 @@
+
+
+This project is not maintaint anymore. Please switch to: https://github.com/kapt-labs/djangocms-htmlsitemap 
+
+
 cmsplugin-htmlsitemap
 =====================
 
